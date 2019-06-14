@@ -1,0 +1,10 @@
+<div class="users-holder">
+  <div class="row" *ngIf="loggedUser.isAdmin">
+    <button class="btn btn-primary mr-3 mt-2" (click)="onAddUser()">Add new user</button>
+  </div> 
+    <div class="row">
+      <div class="user-card col-3 mt-3 mb-3 mr-4" style="background: white; opacity: 0.9; border-radius: 20px;" *ngFor="let currentUser of users; let index = index">
+        <app-users-card [loggedUserId]="loggedUser.id"  [isAdmin]="loggedUser.isAdmin" (onDelete)="onItemDeleted($event)" (onBlock)="onBlockUser($event)" [user]="currentUser"></app-users-card>
+      </div>
+    </div>
+  </div>

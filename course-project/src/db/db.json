@@ -1,0 +1,332 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Lela Lang",
+      "username": "Lang",
+      "password": "admin",
+      "email": "lela@abv.bg",
+      "role": "admin",
+      "isBlocked": "false",
+      "picture": "http://www2.pictures.zimbio.com/gi/Anneliese+van+der+Pol+National+Women+History+3cGqdHI3xcql.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Magdalena Town",
+      "username": "Towsend",
+      "password": "12345",
+      "email": "magda@abv.bg",
+      "role": "user",
+      "isBlocked": "true",
+      "picture": "https://bloximages.chicago2.vip.townnews.com/register-herald.com/content/tncms/assets/v3/editorial/5/40/540dbf94-c52a-52b2-abe7-69cac66eed53/5c032191b59d0.image.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Петър Димитров",
+      "username": "stdfmi",
+      "password": "123",
+      "email": "petio5678@abv.bg",
+      "role": "admin",
+      "isBlocked": "false",
+      "picture": "https://picsum.photos/200/300",
+      "isAdmin": true
+    },
+    {
+      "id": 16,
+      "name": "Георги Димитров",
+      "username": "georgi",
+      "password": "123",
+      "email": "petio5678@abv.bg",
+      "role": "user",
+      "isBlocked": "false",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 18,
+      "name": "Димитър Димитров",
+      "username": "dimi",
+      "password": "12345678",
+      "email": "petio5678@abv.bg",
+      "role": "user",
+      "isBlocked": "false",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 20,
+      "name": "Qsen Asenov",
+      "username": "Qasen",
+      "password": "123",
+      "email": "petio5678@abv.bg",
+      "role": "user",
+      "isBlocked": "true",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 22,
+      "name": "Pete Montgomery",
+      "username": "pete",
+      "password": "123",
+      "email": "petio5678@abv.bg",
+      "role": "user",
+      "isBlocked": "true",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 23,
+      "name": "Emily Thorne",
+      "username": "dead",
+      "password": "dead",
+      "email": "petio5678@abv.bg",
+      "role": "user",
+      "isBlocked": "false",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 24,
+      "name": "peter",
+      "username": "peter",
+      "password": "peter",
+      "email": "peter@abv.bg",
+      "role": "user",
+      "isBlocked": "false",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 25,
+      "name": "Ceco Petrov",
+      "username": "ceco",
+      "password": "123",
+      "email": "petio5678@abv.bg",
+      "role": "user",
+      "isBlocked": "false",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 26,
+      "name": "Titi",
+      "username": "titti",
+      "password": "123",
+      "email": "titi@abv.bg",
+      "role": "user",
+      "isBlocked": "false",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 27,
+      "name": "Prodan Stoyanov",
+      "username": "prodan",
+      "password": "123",
+      "email": "proba@abv.bg",
+      "role": "user",
+      "isBlocked": "true",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 28,
+      "name": "Amanda",
+      "username": "clarke",
+      "password": "123",
+      "email": "petio5678@abv.bg",
+      "role": "user",
+      "isBlocked": "true",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 29,
+      "name": "Aria",
+      "username": "Arianna",
+      "password": "123",
+      "email": "ari@abv.bg",
+      "role": "user",
+      "isBlocked": "true",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 30,
+      "name": "Петър Димитров",
+      "username": "adm",
+      "password": "123",
+      "email": "petio5678@abv.bg",
+      "role": "user",
+      "isBlocked": "false",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 31,
+      "name": "Diana Aleksandrova",
+      "username": "didi",
+      "password": "12345",
+      "email": "petio5678@abv.bg",
+      "role": "user",
+      "isBlocked": "false",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 32,
+      "name": "Kelly Clarke",
+      "username": "kelly",
+      "password": "123",
+      "email": "petio5678@abv.bg",
+      "role": "user",
+      "isBlocked": "false",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 33,
+      "name": "petar",
+      "username": "petar",
+      "password": "petar",
+      "email": "petio5678@abv.bg",
+      "role": "user",
+      "isBlocked": "false",
+      "picture": "https://picsum.photos/200/300"
+    },
+    {
+      "id": 34,
+      "name": "Angel Petkov",
+      "username": "acho",
+      "password": "12345",
+      "email": "acho@abv.bg",
+      "role": "admin",
+      "isBlocked": "false",
+      "picture": "https://picsum.photos/200/300"
+    }
+  ],
+  "courses": [
+    {
+      "id": 2,
+      "title": "Angular",
+      "description": "sit consectetur consequat officia ullamco mollit dolore officia ipsum sit",
+      "rating": 7.35,
+      "picture": "https://picsum.photos/200/300",
+      "joinedUsers": [
+        {
+          "name": "Димитър Димитров",
+          "id": 16
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "title": "Math",
+      "description": "tempor cupidatat nostrud qui ex amet commodo duis esse enim",
+      "rating": 5.5,
+      "picture": "https://picsum.photos/200/300",
+      "joinedUsers": [
+        {
+          "name": "Димитър Димитров",
+          "id": 16
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "title": "Javascript",
+      "description": "sunt duis ut minim excepteur mollit qui fugiat enim aute",
+      "rating": 2.75,
+      "picture": "https://picsum.photos/200/300",
+      "joinedUsers": [
+        {
+          "name": "Димитър Димитров",
+          "id": 16
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "title": "C#",
+      "description": "c# course",
+      "rating": 10,
+      "picture": "https://picsum.photos/200/300",
+      "joinedUsers": []
+    },
+    {
+      "id": 7,
+      "title": "Geometry",
+      "description": "Math course\n",
+      "rating": 10,
+      "picture": "https://picsum.photos/200/300",
+      "joinedUsers": []
+    },
+    {
+      "id": 8,
+      "title": "JAVA",
+      "description": "java course",
+      "rating": 4.38,
+      "picture": "https://picsum.photos/200/300",
+      "joinedUsers": []
+    },
+    {
+      "id": 9,
+      "title": "Wordpress",
+      "description": "Wordpress course",
+      "rating": 10,
+      "picture": "https://picsum.photos/200/300",
+      "joinedUsers": []
+    },
+    {
+      "id": 10,
+      "title": "English",
+      "description": "English course",
+      "rating": 10,
+      "picture": "https://picsum.photos/200/300",
+      "joinedUsers": [
+        {
+          "name": "Ceco Petrov",
+          "id": 25
+        }
+      ]
+    },
+    {
+      "id": 12,
+      "title": "Photoshop",
+      "description": "Photoshop course",
+      "rating": 1,
+      "picture": "https://picsum.photos/200/300",
+      "joinedUsers": [
+        {
+          "name": "Димитър Димитров",
+          "id": 16
+        }
+      ]
+    },
+    {
+      "id": 13,
+      "title": "PHP",
+      "description": "php course",
+      "rating": 10,
+      "picture": "https://picsum.photos/200/300",
+      "joinedUsers": []
+    },
+    {
+      "id": 14,
+      "title": "Python",
+      "description": "Python course\n",
+      "rating": 10,
+      "picture": "https://picsum.photos/200/300",
+      "joinedUsers": [
+        {
+          "name": "Димитър Димитров",
+          "id": 16
+        },
+        {
+          "name": "Ceco Petrov",
+          "id": 25
+        }
+      ]
+    },
+    {
+      "id": 15,
+      "title": "Adobe",
+      "description": "Adobe course",
+      "rating": 10,
+      "picture": "https://picsum.photos/200/300",
+      "joinedUsers": [
+        {
+          "name": "Димитър Димитров",
+          "id": 16
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+<div class="course-card">
+  <span *ngIf="isLogged" class="delete-btn" tooltip="Delete" placement="top" container="body" title="Delete" (click)="onDeleteClicked()"><img src="https://img.icons8.com/metro/26/000000/close-window.png"></span>
+  <span *ngIf="isLogged" class="edit-btn" (click)="onCourseEdit()"><img src="https://img.icons8.com/metro/26/000000/pencil.png"></span>
+  <div class="image-holder">
+    <img class="course-img" [src] = "getCourseImage()" alt="course photo">
+  </div>
+  <div id="textContent" class="info-folder">
+    <div class="title">
+      <span><b>Title: </b></span><span>{{ course.title }}</span>
+    </div>
+    <div class="description">
+      <span><b>Description: </b></span><span>{{ course.description }}</span>
+    </div>
+    <div class="rating" *ngIf="isLogged">
+      <span><b>Rating: </b></span><span>{{ course.rating }}</span>
+    </div>
+
+    <div class="addRating" *ngIf="isLogged">
+        <button (click) = "onAddRating()" style="background: black; color: white;">Add Rating</button>
+    </div>
+
+    <div class="joinedId">
+      <span><b>Joined Users: </b></span><div *ngFor="let joinedUser of course.joinedUsers">{{ joinedUser.name }}</div>
+    </div>
+    <div class="joinBtn" (click) = "onJoinClicked()" *ngIf="isLogged && canJoin">
+      <button style="background: black; color: white;">Join</button>
+    </div>
+</div>

@@ -1,0 +1,22 @@
+.user-img{
+    max-width: 7em;
+    float: left;
+}
+
+#textContent{
+    float: left;
+}
+
+.delete-btn{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    cursor: pointer;
+}
+
+.edit-btn{
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    cursor: pointer;
+}

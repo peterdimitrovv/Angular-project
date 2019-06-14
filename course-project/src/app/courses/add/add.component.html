@@ -1,0 +1,79 @@
+<div class="course-form-holder mt-2 col-8">
+    <form [formGroup]='courseForm' (ngSubmit)="onFormSubmit($event)">
+  
+        <div class="row">
+            <div class="offset-2 col-8">
+            <div class="col-12">
+              <div class="form-group">
+                <label>Title</label>
+                <input class="form-control" name="title"
+                formControlName='title'>
+    
+                <div class="error" *ngIf="title?.errors?.required">
+                    <span class="text-danger">This field is required</span>
+                  </div>
+    
+              </div>
+            </div>
+            </div>
+          </div>
+  
+      <div class="row">
+          <div class="offset-2 col-8">
+        <div class="col-12">
+          <div class="form-group">
+            <label>Description</label>
+            <textarea class="form-control" name="description"
+            formControlName='description'></textarea>
+  
+            <div class="error" *ngIf="description?.errors">
+              <span class="text-danger" *ngIf="description.errors.required">This field is required</span>
+              <span class="text-danger" *ngIf="description.errors.minlength">The min Length is 3</span>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+  
+        <div class="row">
+            <div class="offset-2 col-8">
+            <div class="col-12">
+              <div class="form-group">
+                <label>Rating</label>
+                <input type="number" min="1"  max="10" class="form-control" name="rating"
+                formControlName='rating'>
+  
+                <div class="error" *ngIf="rating?.errors?.required">
+                    <span class="text-danger">This field is required</span>
+                  </div>
+  
+              </div>
+            </div>
+            </div>
+          </div>
+  
+          <div class="row">
+            <div class="offset-2 col-8">
+              <div class="col-12">
+                <div class="form-group">
+                  <label>Picture</label>
+                  <input class="form-control" name="picture"
+                  formControlName='picture'>
+  
+                  <div class="error" *ngIf="picture?.errors?.required">
+                      <span class="text-danger">This field is required</span>
+                    </div>
+  
+                </div>
+              </div>
+            </div>
+          </div>
+  
+          <div class="row">
+              <div class="offset-2 col-8 text-right">
+                <button type="submit" class="btn btn-primary"
+                [disabled]="!isFormValid">Save Course</button>
+              </div>
+          </div>
+    </form>
+  </div>

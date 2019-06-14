@@ -1,0 +1,24 @@
+<div class="courses-holder">
+    
+    <div class="row" *ngIf="isLogged">
+        <button class="btn btn-primary mr-3 mt-2" (click)="onAddCourse()">Add new course</button>
+        <label class = "mr-3 mt-2">Give Your Rating:</label>
+        <select id="rate">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+        </select>
+      </div> 
+  <div class="row">
+    <div class="course-card col-3 mt-3 mb-3 mr-4" style="background: white; opacity: 0.9; border-radius: 20px;" *ngFor="let currentCourse of courses; let index = index">
+      <app-courses-card (onDelete)="onItemDeleted($event)" [course]="currentCourse" [index]="index"></app-courses-card>
+    </div>
+  </div>
+</div>

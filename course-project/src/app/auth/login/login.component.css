@@ -1,0 +1,33 @@
+.login-holder {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-holder {
+    width: 500px;
+    background: black;
+    opacity: 0.9;
+    border-radius: 20px;
+    padding: 20px;
+    margin: auto;
+}
+
+.course-form-holder{
+    background: black;
+    opacity: 0.9;
+    border-radius: 20px;
+}
+
+label, h3{
+    color: white;
+}
+
+h3{
+text-align: center;
+}
+
+.btn{ 
+    float: right;
+}

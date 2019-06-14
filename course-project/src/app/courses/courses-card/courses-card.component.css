@@ -1,0 +1,25 @@
+.course-card{
+    float: left;
+}
+
+.course-img{
+    max-width: 30em;
+}
+
+#textContent{
+    float: left;
+}
+
+.delete-btn{
+    position: absolute;
+    top: 5px;
+    right: 25px;
+    cursor: pointer;
+}
+
+.edit-btn{
+    position: absolute;
+    top: 5px;
+    right: 60px;
+    cursor: pointer;
+}

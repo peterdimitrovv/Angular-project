@@ -1,0 +1,28 @@
+<div class="user-card">
+  <span *ngIf="canManipulate" class="delete-btn" tooltip="Delete" placement="top" container="body" title="Delete" (click)="onDeleteClicked()"><img src="https://img.icons8.com/metro/26/000000/close-window.png"></span>
+  <span *ngIf="canManipulate" class="edit-btn" (click)="onUserEdit()"><img src="https://img.icons8.com/metro/26/000000/pencil.png"></span>
+  <div class="image-holder">
+    <img class="user-img" [src]="getUserImage()" alt="user picture">
+  </div>
+  <div id="textContent" class="info-folder">
+    <div class="name">
+      <span><b>Name: </b></span><span>{{ user.name }}</span>
+    </div>
+    <div class="userName">
+      <span><b>Username: </b></span><span>{{ user.username }}</span>
+    </div>
+    <div>
+      <span><b>Email: </b></span><span>{{ user.email }}</span>
+    </div>
+    <div class="role">
+      <span><b>Role: </b></span><span>{{ user.role }}</span>
+    </div>
+    <div class="isBlocked">
+      <span><b>Is Blocked: </b></span><span>{{ user.isBlocked }}</span>
+    </div>
+
+    <div class="blockBtn" (click) = "onBlockClicked()" *ngIf="canManipulate">
+      <button style="background: black; color: white;">Un/Block</button>
+    </div>
+  </div>
+</div>
